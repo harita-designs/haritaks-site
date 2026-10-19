@@ -1,0 +1,5 @@
+# Old Framer addresses -> new pages (301 = permanent, keeps old links and Google results working)
+/cardiact-arrest-monitoring-using-iot   /cardiac-arrest-monitoring-iot/   301
+/cardiact-arrest-monitoring-using-iot/  /cardiac-arrest-monitoring-iot/   301
+/statistical-machine-learning-approaches-to-liver-disease-prediction  /ml-decision-support-tool/  301
+/random-photography                     /photography/                     301

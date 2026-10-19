@@ -1,0 +1,5 @@
+# full-size backups: kept on this Mac only, not uploaded (the site uses the compressed copies in assets/)
+assets/originals/
+.DS_Store
+.vscode/
+_upload/
