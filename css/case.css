@@ -1672,3 +1672,6 @@
 /* Opscien T-shirt (good-at-numbers-tshirt): header like textile, then a plain image stack right after the hero */
 .page-gn .vx-stack { margin-top: calc(25 * var(--c)); }
 @media (max-width: 1199.98px) { .page-gn .vx-stack { margin-top: 25px; } }
+/* Visual design gallery: T-shirt card photo 15% darker than the others at rest; full brightness on hover like the rest */
+.case .vd-media[href*="good-at-numbers"] img { filter: brightness(.85); transition: opacity .4s, transform .6s cubic-bezier(.2, .7, .2, 1), filter .4s; }
+.case .vd-media[href*="good-at-numbers"]:hover img, .case .vd-media[href*="good-at-numbers"]:focus-visible img { filter: none; }
