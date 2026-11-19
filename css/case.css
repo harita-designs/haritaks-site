@@ -1674,3 +1674,7 @@
 .nf-text { margin-top: 35px; font-size: 28px; line-height: 1.3; color: var(--color-cream-50); }
 .nf-btn { display: inline-block; margin-top: 50px; padding: 10px 50px; border-radius: var(--radius-sm); background: var(--color-cream-10); box-shadow: inset 0 0 0 1px var(--color-cream-30); color: var(--accent); font-weight: 600; }
 @media (max-width: 809.98px) { .nf-box { padding: 75px 0; } .nf-text { font-size: 18px; } body.page-404 { --page-x: 15px; } }
+
+/* Opscien T-shirt (good-at-numbers-tshirt): header like textile, then a plain image stack right after the hero */
+.page-gn .vx-stack { margin-top: calc(25 * var(--c)); }
+@media (max-width: 1199.98px) { .page-gn .vx-stack { margin-top: 25px; } }
