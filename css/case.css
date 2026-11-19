@@ -846,12 +846,6 @@
 .vd-title svg { flex: none; width: calc(38 * var(--c)); height: calc(28 * var(--c)); rotate: -40deg; overflow: visible; fill: none; stroke: var(--accent); stroke-width: 2; transition: translate .25s; }
 .vd-title:hover svg, .vd-title:focus-visible svg { translate: calc(4 * var(--c)) calc(-3 * var(--c)); }
 
-/* custom cursor: CLICK state (desktop pointers) */
-.cursor::after { content: "CLICK"; position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-footer); font-size: 20px; color: #ECECEC; opacity: 0; transition: opacity .2s; }
-.cursor.is-click { width: 100px; height: 100px; margin: -50px 0 0 -50px; border-radius: 50%; mix-blend-mode: normal; }
-.cursor.is-click::after { opacity: 1; }
-.cursor { transition: opacity .2s, width .25s, height .25s, margin .25s; }
-
 /* below 1200 Framer renders the newspaper title in a 91px box (its text frame keeps a third line) */
 @media (max-width: 1199.98px) { .vd-title[href*="newspaper"] h2 { padding: 12px 0; } }
 /* Framer tablet (810-1199): rows 35px off the rules, 28px titles */

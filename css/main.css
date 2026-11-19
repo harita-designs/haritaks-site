@@ -35,6 +35,11 @@ b { font-weight: inherit; }
   opacity: 0; transition: opacity .2s;
 }
 .cursor.is-on { opacity: 1; }
+/* custom cursor: CLICK state (desktop pointers) */
+.cursor::after { content: "CLICK"; position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-footer); font-size: 20px; color: #ECECEC; opacity: 0; transition: opacity .2s; }
+.cursor.is-click { width: 100px; height: 100px; margin: -50px 0 0 -50px; border-radius: 50%; mix-blend-mode: normal; }
+.cursor.is-click::after { opacity: 1; }
+.cursor { transition: opacity .2s, width .25s, height .25s, margin .25s; }
 @media (hover: none) { .cursor { display: none; } }
 
 /* ---------- Horizontal rule (Framer: 1px, color 03) ---------- */
